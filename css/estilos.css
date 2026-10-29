@@ -1,0 +1,286 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #91CFF8, #F891F5);
+}
+
+
+
+.logo-link {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.logo-festival {
+    width: 200px;
+    max-height: px;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.logo-festival:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #F40B0B; /* ama */
+}
+
+
+
+
+
+h2 {
+    font-family: 'Fredoka', sans-serif;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+
+
+h3 {
+    font-family: 'Fredoka', sans-serif;
+    color: #000;
+    transition: all 0.3s ease;
+}
+
+
+
+section {
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.05);
+}
+
+
+
+
+
+
+
+
+.card-sobre-mi {
+    background: #F55FC8;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.card-sobre-mi:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+.card-rojo {
+    background: #fff;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.card-rojo:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+.card-rojo-l {
+    background: #fff;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+     margin-top: 50px;
+}
+
+.card-rojo-l:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.card-verde {
+    background: #52DA60;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.card-verde:hover {
+    transform: translateY(-5px);
+}
+
+
+.card-azul {
+    background: #13A9E8;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.card-azul:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.foto-perfil {
+    
+    border-radius: 20px;
+}
+
+
+
+
+
+
+.card-cute {
+    background: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.card-cute img {
+    border-radius: 15px;
+}
+
+.card-cute:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 25px rgba(166,108,255,0.3);
+}
+
+.card-cute p {
+    margin-top: 10px;
+    color: #7a5c8f;
+}
+
+
+
+
+
+
+
+.link-cute {
+    color: #F23A3A;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.link-cute:hover {
+    color: #13A9E8;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+.video-contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.video-card {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+.video-card iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border: none;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+.formulario {
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 50px auto 60px auto;
+    box-sizing: border-box;
+}
+
+.formulario input,
+.formulario textarea {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #F5A2BD;
+}
+
+
+.contacto-contenedor {
+    grid-template-columns: 60% 40%;
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+.btn {
+    background-color: #EF3E3E;
+    color: #13A9E8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s; }
+
+.btn:hover {
+    background-color: #13A9E8;
+    color: #EF3E3E; }
+
+
+
+
+
+
+
+footer {
+    
+    color: #000;
+}
